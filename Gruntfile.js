@@ -1,6 +1,6 @@
 /*
- * grunt-sync
- * https://github.com/TyrantChiong/grunt-sync
+ * grunt-fragment
+ * https://github.com/TyrantChiong/grunt-fragment
  *
  * Copyright (c) 2013 Tychio
  * Licensed under the MIT license.
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    sync: {
+    fragment: {
       default_options: {
         options: {
           match: /(function syncFunc \(\) \{)[\S\s]+(\}\/\/ syncFunc end)/gm
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['copy', 'sync', 'nodeunit']);
+  grunt.registerTask('test', ['copy', 'fragment', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

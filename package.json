@@ -1,5 +1,5 @@
 {
-  "name": "grunt-sync",
+  "name": "grunt-fragment",
   "description": "Synchronizing code of fragments",
   "version": "0.1.0",
   "homepage": "",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tychio/grunt-sync.git"
+    "url": "git://github.com/tychio/grunt-fragment.git"
   },
   "bugs": {
-    "url": "https://github.com/tychio/grunt-sync/issues"
+    "url": "https://github.com/tychio/grunt-fragment/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/tychio/grunt-sync/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tychio/grunt-fragment/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
